@@ -1,0 +1,25 @@
+{
+  "partner-event": {
+    "candidate": {
+      "resume": {
+        "file-name": "resume.pdf",
+        "url": "https://files.example/resume.pdf?synthetic-signature=example"
+      },
+      "uploads": [
+        {
+          "file-name": "certificate.pdf",
+          "url": "https://files.example/certificate.pdf?synthetic-signature=example"
+        }
+      ],
+      "questions": [
+        {
+          "question": "Portfolio attachment",
+          "answer": "https://files.example/portfolio.pdf?synthetic-signature=example"
+        }
+      ]
+    },
+    "webhook-data": {
+      "additional-document": "https://files.example/additional.pdf?synthetic-signature=example"
+    }
+  }
+}

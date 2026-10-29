@@ -1,0 +1,26 @@
+{
+  "config": {
+    "fields": [
+      {
+        "id": "department",
+        "type": "select",
+        "label": "Department",
+        "required": true,
+        "options": [
+          {
+            "id": "engineering",
+            "label": "Engineering"
+          }
+        ],
+        "dynamicField": {
+          "url": "/config/offices"
+        }
+      },
+      {
+        "id": "additional-document",
+        "type": "file",
+        "label": "Additional document"
+      }
+    ]
+  }
+}

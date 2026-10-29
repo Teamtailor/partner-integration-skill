@@ -1,0 +1,10 @@
+{
+  "data": {
+    "type": "partner-results",
+    "id": "result-example",
+    "attributes": {
+      "status": "completed",
+      "summary": "Employee created"
+    }
+  }
+}

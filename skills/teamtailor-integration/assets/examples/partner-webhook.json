@@ -1,0 +1,35 @@
+{
+  "partner-event": {
+    "id": "event-example",
+    "webhook-data": {
+      "department": "engineering",
+      "office": "amsterdam"
+    },
+    "partner-result": {
+      "id": "result-example",
+      "status": "sending",
+      "update-url": "https://api.teamtailor.com/partner/v1/partner-results/result-example"
+    },
+    "candidate": {
+      "id": 123,
+      "first-name": "Alex",
+      "last-name": "Example",
+      "email": "alex@example.com",
+      "custom-fields": [
+        {
+          "employment-country": {
+            "value": [
+              "NL"
+            ],
+            "type": "select",
+            "mapped_from": "payroll-country"
+          }
+        }
+      ]
+    },
+    "company": {
+      "uuid": "company-example",
+      "name": "Example company"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "specialization",
+    "type": "select",
+    "label": "Specialization",
+    "required": true,
+    "options": [
+      {
+        "id": "backend",
+        "label": "Backend engineering"
+      }
+    ]
+  }
+]

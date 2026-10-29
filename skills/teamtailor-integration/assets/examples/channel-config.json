@@ -1,0 +1,23 @@
+{
+  "config": {
+    "1": [
+      {
+        "id": "profession",
+        "type": "select",
+        "label": "Profession",
+        "required": true,
+        "options": [
+          {
+            "id": "engineering",
+            "label": "Engineering"
+          }
+        ],
+        "dynamicField": {
+          "url": "https://board.example/config/specializations"
+        }
+      }
+    ],
+    "hasNextPage": false,
+    "page": "1"
+  }
+}

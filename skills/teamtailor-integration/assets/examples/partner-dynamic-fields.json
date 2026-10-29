@@ -1,0 +1,14 @@
+[
+  {
+    "id": "office",
+    "type": "select",
+    "label": "Office",
+    "required": true,
+    "options": [
+      {
+        "id": "amsterdam",
+        "label": "Amsterdam"
+      }
+    ]
+  }
+]

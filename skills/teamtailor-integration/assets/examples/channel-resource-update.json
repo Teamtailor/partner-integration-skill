@@ -1,0 +1,10 @@
+{
+  "data": {
+    "type": "channels",
+    "id": "integration-example",
+    "attributes": {
+      "dynamic-activation-config": true,
+      "activation-config": {}
+    }
+  }
+}

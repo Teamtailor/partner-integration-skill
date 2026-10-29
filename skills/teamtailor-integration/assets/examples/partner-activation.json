@@ -1,0 +1,25 @@
+{
+  "config": {
+    "fields": [
+      {
+        "id": "api_token",
+        "type": "password",
+        "label": "API token",
+        "required": true
+      }
+    ],
+    "validateEndpoint": "activation/validate",
+    "customFieldMapping": [
+      {
+        "name": "Employment country",
+        "apiName": "employment-country",
+        "type": "select",
+        "options": [
+          "NL",
+          "SE"
+        ],
+        "strict": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "name": "partner-event-id",
+    "mode": "event-id",
+    "key": "synthetic-partner-secret",
+    "timestamp": "1700000000",
+    "payload": "event-example",
+    "signed_input": "1700000000.event-example",
+    "digest": "f49c61403d880cffb234900ea6c4be6bf882a3a61a8ed20c49e074028d3991a1",
+    "header": "t=1700000000,v1=f49c61403d880cffb234900ea6c4be6bf882a3a61a8ed20c49e074028d3991a1"
+  },
+  {
+    "name": "partner-raw-body",
+    "mode": "body",
+    "key": "synthetic-partner-secret",
+    "timestamp": "1700000000",
+    "payload": "{\"partner-event\":{\"id\":\"event-example\"}}",
+    "signed_input": "1700000000.{\"partner-event\":{\"id\":\"event-example\"}}",
+    "digest": "cee14f82318ea294917f12769e4bda0e435552254edb9555e4cade385859666f",
+    "header": "t=1700000000,v1=cee14f82318ea294917f12769e4bda0e435552254edb9555e4cade385859666f"
+  },
+  {
+    "name": "channel-raw-body-unicode",
+    "mode": "body",
+    "key": "synthetic-channel-key",
+    "timestamp": "1700000000",
+    "payload": "{ \"id\": \"request-example\", \"title\": \"Inżynier\" }\n",
+    "signed_input": "1700000000.{ \"id\": \"request-example\", \"title\": \"Inżynier\" }\n",
+    "digest": "e7617b4e6d1e49cfddff02253e22257e25fd8ca639b630c31aa8e9ee6bc98430",
+    "header": "t=1700000000,v1=e7617b4e6d1e49cfddff02253e22257e25fd8ca639b630c31aa8e9ee6bc98430"
+  },
+  {
+    "name": "channel-empty-body",
+    "mode": "body",
+    "key": "synthetic-channel-key",
+    "timestamp": "1700000000",
+    "payload": "",
+    "signed_input": "1700000000.",
+    "digest": "6de1ecb033e7fd61c168a94660cc974666387377b4dc3a73c73f5eb420e0eb77",
+    "header": "t=1700000000,v1=6de1ecb033e7fd61c168a94660cc974666387377b4dc3a73c73f5eb420e0eb77"
+  }
+]

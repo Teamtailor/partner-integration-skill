@@ -1,0 +1,28 @@
+{
+  "id": "request-example",
+  "reference-id": "reference-example",
+  "job-board-id": "board-example",
+  "webhook-data": {
+    "profession": "engineering",
+    "specialization": "backend"
+  },
+  "company": {
+    "uuid": "company-example"
+  },
+  "job": {
+    "title": "Example engineer",
+    "custom-fields": [
+      {
+        "id": 42,
+        "name": "Contract arrangement",
+        "api_name": "contract-arrangement",
+        "type": "select",
+        "value": [
+          "Permanent"
+        ],
+        "mapped_as": "contract-type",
+        "mapped_from": "contract-arrangement"
+      }
+    ]
+  }
+}

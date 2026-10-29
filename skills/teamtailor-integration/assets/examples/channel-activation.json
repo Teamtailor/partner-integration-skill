@@ -1,0 +1,25 @@
+{
+  "config": {
+    "fields": [
+      {
+        "id": "api_token",
+        "type": "password",
+        "label": "API token",
+        "required": true
+      }
+    ],
+    "validateEndpoint": "activation/validate",
+    "customFieldMapping": [
+      {
+        "name": "Contract type",
+        "apiName": "contract-type",
+        "type": "select",
+        "options": [
+          "Permanent",
+          "Fixed term"
+        ],
+        "strict": true
+      }
+    ]
+  }
+}
